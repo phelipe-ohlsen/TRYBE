@@ -6,3 +6,6 @@ IntroHTML-Part1 : HTML & CSS - Estruturas de página -> Parte I -> Introdução 
 IntroHTML-Part2 :  HTML & CSS - Estruturas de página -> Parte II -> Mais tags HTML
 IntroHTML&CSS: HTML & CSS - Primeiros passos em CSS -> Parte I e Parte II
 IntroHTML&CSS: HTML & CSS - Seletores e posicionamento
+exercises/4.1
+exercises/4.2
+exercises/4.3
