@@ -1,0 +1,51 @@
+<!-- 01- Add a script tag to the bottom of the page for your code. -->
+<!-- 02- Add an event listener to the button so that it calls a makeMadLib function when clicked. -->
+<!-- 03- In the makeMadLib function, retrieve the current values of the form input elements, 
+make a story from them, and output that in the story div  (like "Pamela really likes pink cucumbers.") -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title></title>
+</head>
+
+<body>
+
+  <h1>Mad Libs</h1>
+
+  <ul>
+    <li>Noun: <input type="text" id="noun">
+    <li>Adjective: <input type="text" id="adjective">
+    <li>Someone's Name: <input type="text" id="person">
+  </ul>
+
+  <button id="lib-button">Lib it!</button>
+
+  <div id="story"></div>
+
+  <script>
+    function makeMadLib() {
+      const noun = document.querySelector("#noun");
+      const adjective = document.querySelector("#adjective");
+      const person = document.querySelector("#person");
+
+      const plot = `
+        In a galaxy not so far away, ${person.value}, a  ${adjective.value} developer ${noun.value}, struggles
+        against the capricious CodeClimate.
+      `;
+
+      story.innerText = plot
+
+    }
+
+    const button = document.querySelector("#lib-button");
+    const story = document.querySelector("#story");
+
+    button.addEventListener("click", makeMadLib);
+  </script>
+
+</body>
+
+</html>
