@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercise</title>
+</head>
+<body>
+  <h1>Lorem Ipsum</h1>
+
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et vestibulum euismod. 
+    Fusce pulvinar neque leo, ac ultrices metus gravida id. Vestibulum consequat dignissim magna eget accumsan. 
+    Aliquam tellus enim, ornare vel lacinia sed, posuere vitae ligula. Maecenas in sem vitae mi blandit ornare ut non justo. 
+    Sed convallis tortor ac malesuada pellentesque. Nullam sit amet dolor justo. Suspendisse blandit sagittis leo pulvinar pellentesque. 
+    Nullam a magna vel metus fringilla suscipit eu vitae ligula. Vestibulum eu dui quis odio dapibus porta. Duis malesuada sapien erat, 
+    non auctor mauris fringilla pulvinar. Sed eleifend magna turpis, et imperdiet arcu pellentesque nec. 
+    Praesent at luctus mi. Quisque mauris ante, venenatis eget rhoncus vitae, vulputate eget orci.
+  </p>
+
+  <p>
+    Duis id neque purus. Fusce pulvinar sapien justo, sit amet ultrices magna dictum nec. 
+    Ut porttitor quis neque ut dapibus. Integer mi quam, varius vitae ante at, tempus posuere velit. 
+    Proin ac sodales neque. Duis pellentesque eget ante in maximus. Vestibulum at tortor molestie, 
+    consequat tortor sed, semper leo.
+  </p>
+
+  <h3>Customize your page!</h3>
+  Background color:<br> <input type="text" name=""><button>Save</button>
+  <br><br>
+  Text color:<br> <input type="text" name=""><button>Save</button>
+  <br><br>
+  Font-size:<br> <input type="number" name=""><button>Save</button>
+  <br><br>
+  Font-family:<br> <input type="text" name=""><button>Save</button>
+  <br><br>
+  <button id="reset">Reset</button>
+
+  <script>
+    function localStore(key,value) {
+      localStorage.setItem(key,value);
+    }
+
+    function changeStyle(tag,property,value) {
+      tag.style[`${property}`] = value;
+    }
+
+    // Background color
+    let bgColor = localStorage.getItem("bgColor");
+    document.body.style.backgroundColor = bgColor;
+
+    const bgColorInput = document.getElementsByTagName("input")[0];
+    bgColorInput.value = bgColor;
+
+    const bgColorButton = document.getElementsByTagName("button")[0];
+
+
+    bgColorButton.addEventListener("click",function() {
+      localStore("bgColor", `${bgColorInput.value}`);
+      changeStyle(document.body,`backgroundColor`,`${bgColorInput.value}`);
+    })
+
+    // Text color
+    let textColor = localStorage.getItem("textColor");
+    document.body.style.color = textColor;
+
+    const textColorInput = document.getElementsByTagName("input")[1];
+    textColorInput.value = textColor;
+
+    const textColorButton = document.getElementsByTagName("button")[1];
+
+    textColorButton.addEventListener("click", function() {
+      localStore("textColor",`${textColorInput.value}`);
+      changeStyle(document.body,`color`,`${textColorInput.value}`);
+    });
+
+    // Font-size
+    let fontSize = localStorage.getItem("fontSize");
+    document.body.style.fontSize = fontSize;
+
+    const fontSizeInput = document.getElementsByTagName("input")[2];
+    fontSizeInput.value = parseFloat(fontSize);
+
+    const fontSizeButton = document.getElementsByTagName("button")[2];
+
+    fontSizeButton.addEventListener("click", function() {
+      localStore("fontSize",`${fontSizeInput.value}px`);
+      changeStyle(document.body,`fontSize`,`${fontSizeInput.value}px`);
+    });
+
+    // Font-family
+    let fontFamily = localStorage.getItem("fontFamily");
+    document.body.style.fontFamily = fontFamily;
+
+    const fontFamilyInput = document.getElementsByTagName("input")[3];
+    fontFamilyInput.value = fontFamily;
+
+    const fontFamilyButton = document.getElementsByTagName("button")[3];
+
+    fontFamilyButton.addEventListener("click", function() {
+      localStore("fontFamily",`${fontFamilyInput.value}`)
+      changeStyle(document.body,`fontFamily`,`${fontFamilyInput.value}`)
+    })
+
+    // Reset
+    const resetButton = document.getElementById("reset");
+    resetButton.onclick = function() {
+      localStorage.clear();
+      window.location.reload(false);
+    }
+
+  </script>
+  
+</body>
+</html>
