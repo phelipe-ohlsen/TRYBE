@@ -1,0 +1,9 @@
+/* https://flexboxfroggy.com/ */
+
+/* TODO: Lead the frog to the center of the pond */
+
+#pond {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
