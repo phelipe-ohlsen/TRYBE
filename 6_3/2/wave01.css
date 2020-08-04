@@ -1,0 +1,8 @@
+/* http://www.flexboxdefense.com/ */
+
+/* TODO:  Use the justify-content property to move these two towers into position. */
+
+.tower-group-1 {
+  display: flex;
+  justify-content: center;
+}

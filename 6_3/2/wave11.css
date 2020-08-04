@@ -1,0 +1,14 @@
+/* http://www.flexboxdefense.com/ */
+
+/* TODO: Use justify-content and align-self to move your towers into position. */
+
+.tower-group-1 {
+  display: flex;
+  justify-content: space-between;
+}
+.tower-1-1 {
+  align-self: flex-end;
+}
+.tower-1-3 {
+  align-self: flex-end;
+}
