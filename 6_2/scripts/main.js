@@ -1,3 +1,5 @@
+// Generate form state options
+
 function generateStateOptions() {
   const stateSelect = document.getElementById('state');
   const stateArray = [
@@ -121,3 +123,29 @@ function generateStateOptions() {
 }
 
 generateStateOptions()
+
+
+// Pikaday lib
+
+var picker = new Pikaday({
+  field: $('#datepicker')[0],
+  format: 'Do MMMM YYYY',
+});
+
+// JustValidate lib
+
+new window.JustValidate('.form', {
+  rules: {
+    email: {
+      required: true,
+      email: true
+    }
+  },
+  messages: {
+    email: 'Please, enter a valid e-mail.'
+  },
+
+  submitHandler: function (form, values) {
+    console.log(form, values);
+  }
+});
