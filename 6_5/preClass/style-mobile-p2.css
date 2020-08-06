@@ -1,0 +1,20 @@
+body {
+  background-color: gray;
+}
+
+.centro {
+  width: 100%;
+}
+
+.topo {
+  background: cornflowerblue;
+}
+
+.container {
+  display: block;
+}
+
+.colunas2 {
+  width: 100%;
+  margin: 1% 0;
+}
