@@ -1,0 +1,138 @@
+<!-- Start with this webpage, which has a single img tag of an animated GIF of a cat walking. -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Cat Walk</title>
+</head>
+
+<body>
+
+  <img style="position:absolute;" src="http://www.anniemation.com/clip_art/images/cat-walk.gif">
+
+  <!-- 01- Add a script tag at the bottom of the page, where you'll put all your code. -->
+  <script>
+    // 02- Create a variable to store a reference to the img.
+    const img = document.querySelector("img");
+
+
+
+
+    // 03- Change the style of the img to have a "left" of "0px", so that it starts at the left hand of the screens.
+    img.style.left = "0px"
+
+
+
+
+    // 04- Create a function called catWalk() that moves the cat 10 pixels to the right of where it started,
+    // by changing the "left" style property
+    function catWalk() {
+      const movetoRight = (parseFloat(img.style.left) + 10) + "px";
+      img.style.left = movetoRight;
+    }
+
+
+    // 05- Call that function every 50 milliseconds. Your cat should now be moving across the screen from left to right.
+    // window.setInterval(catWalk, 50); // Disabled due Bonus#1
+
+
+
+    // Bonus #1: When the cat reaches the right-hand of the screen, restart them at the left hand side ("0px"). 
+    // So they should keep walking from left to right across the screen, forever and ever.
+    function catWalkLeftLoop() {
+      const leftDistance = (parseFloat(img.style.left) + 10);
+      let walk = leftDistance + "px"
+
+      img.style.left = walk;
+
+      if (leftDistance >= (window.innerWidth - img.width)) {
+        img.style.left = "0px"
+      }
+
+    }
+
+    // window.setInterval(catWalkLeftLoop, 50) // Disabled due Bonus#2
+
+
+
+    // Bonus #2: When the cat reaches the right-hand of the screen, make them move backwards instead. 
+    // They should keep walking back and forth forever and ever.
+
+    function catWalkMoonWalk() {
+      let leftDistance = parseFloat(img.style.left);
+
+      if (!(moonWalk)) {
+        img.style.left = leftDistance + 10 + "px";
+      } else {
+        img.style.left = leftDistance - 10 + "px";
+      }
+
+      if(!(moonWalk) && leftDistance >= (window.innerWidth - img.width)) {
+        moonWalk = true;
+      }
+
+      if (moonWalk && leftDistance <= 0) {
+        moonWalk = false;
+      }
+
+    }
+
+    let moonWalk = false;
+    img.style.left = "0px";
+
+    // window.setInterval(catWalkMoonWalk, 50) // Disabled due Bonus#3
+
+
+
+    // Bonus #3: When the cat reaches the middle of the screen, replace the img with an image of a cat dancing, 
+    // keep it dancing for 10 seconds, and then replace the img with the original image and have it continue the walk.
+    function catWalkAndDance() {
+      let leftDistance = parseFloat(img.style.left);
+
+      if (!(moonWalk)) {
+        img.style.left = leftDistance + 10 + "px";
+      } else {
+        img.style.left = leftDistance - 10 + "px";
+      }
+
+      if(!(moonWalk) && leftDistance >= (window.innerWidth - img.width)) {
+        moonWalk = true;
+      }
+
+      if (moonWalk && leftDistance <= 0) {
+        moonWalk = false;
+      }
+
+      if(danceOne && leftDistance > (window.innerWidth - img.width)/2) {
+        // console.log("ida")
+        // img.src = "https://media1.giphy.com/media/1zRf1FsIIvtFO0PS7U/giphy.gif"
+        catDancing()
+        danceOne = false;
+        danceTwo = true;
+      } 
+      else if (danceTwo && leftDistance < (window.innerWidth - img.width)/2) {
+        // console.log("volta");
+        danceOne = true;
+        danceTwo = false;
+      }
+
+    }
+
+    function catDancing() {
+      console.log("Dancing")
+    }
+
+    let danceOne = true;
+    let danceTwo = false;
+
+    window.setInterval(catWalkAndDance, 50)
+    
+
+
+  </script>
+
+</body>
+
+</html>

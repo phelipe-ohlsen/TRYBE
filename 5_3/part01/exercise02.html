@@ -1,0 +1,131 @@
+<!-- Start with this webpage, which has inputs and buttons for things to calculate: -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset=utf-8 />
+  <title>Calculator</title>
+</head>
+
+<body>
+
+  <label>Square this number:
+    <input type="number" id="square-input" size="2">
+  </label>
+  <button id="square-button">Calculate</button>
+  <br><br>
+
+  <label>Half this number:
+    <input type="number" id="half-input" size="2">
+  </label>
+  <button id="half-button">Calculate</button>
+  <br><br>
+
+  <label>
+    Fraction:
+    <input type="number" id="percent1-input" size="2">
+  </label>
+  <label>
+    Whole:
+    <input type="number" id="percent2-input" size="2">
+  </label>
+  <button id="percent-button">Calculate</button>
+  <br><br>
+
+  <label>Calculate area of circle with radius:
+    <input type="number" id="area-input" size="2">
+  </label>
+  <button id="area-button">Calculate</button>
+  <br><br>
+  <div id="solution"></div>
+
+  <script>
+  // 01- Add a script tag, and add the functions from the calculator exercise.
+  function squareNumber(num) {
+    let squaredNumber = num * num;
+    console.log('The result of squaring the number ' + num + ' is ' + squaredNumber);
+    solution.innerText = squaredNumber;
+    return squaredNumber
+  }
+
+  function halfOf(num) {
+    let half = num / 2;
+    console.log('Half of ' + num + ' is ' +  half);
+    solution.innerText = half;
+    return half
+  }
+
+  function percentOf(num1, num2) {
+    let percent = (num1/num2) * 100;
+    console.log(num1 + ' is ' + percent + '% of ' + num2);
+    solution.innerText = `${percent}%`;
+    return percent
+  }
+
+  function areaOfCircle(radius) {
+    let area = Math.PI * squareNumber(radius);
+    console.log('The area of circle with radius ' + radius + ' is ' + area);
+    solution.innerText = area;
+    return area
+  }
+
+  // 02- For each operation, create an event listener for the button, and when it's clicked, 
+  // find the value of the appropriate input and show the result of the calculation in the solution div.
+  const solution = document.querySelector("#solution");
+
+  // Square
+  const squareInput = document.querySelector("#square-input");
+  const squareButton = document.querySelector("#square-button");
+
+  squareButton.addEventListener("click",function(){
+    squareNumber(squareInput.value)
+  })
+
+  // Half of
+  const halfInput = document.querySelector("#half-input");
+  const halfButton = document.querySelector("#half-button");
+
+  halfButton.addEventListener("click",function(){
+    halfOf(halfInput.value)
+  })
+
+  // Percent of
+  const fractionInput = document.querySelector("#percent1-input");
+  const wholeInput = document.querySelector("#percent2-input");
+  const percentOfButton = document.querySelector("#percent-button");
+
+  percentOfButton.addEventListener("click",function(){
+    percentOf(fractionInput.value,wholeInput.value)
+  })
+
+  // Area of circle
+  const areaInput = document.querySelector("#area-input");
+  const areaButton = document.querySelector("#area-button");
+
+  areaButton.addEventListener("click",function(){
+    areaOfCircle(areaInput.value)
+  })
+
+  // Bonus: respond to key presses so that the user doesn't have to click the button.
+  squareInput.addEventListener("keyup",function(){
+    squareNumber(squareInput.value)
+  });
+
+  halfInput.addEventListener("keyup",function(){
+    halfOf(halfInput.value)
+  });
+
+  wholeInput.addEventListener("keyup",function(){
+    percentOf(fractionInput.value,wholeInput.value)
+  });
+
+  areaInput.addEventListener("keyup",function(){
+    areaOfCircle(areaInput.value)
+  })
+
+  </script>
+
+</body>
+
+</html>
