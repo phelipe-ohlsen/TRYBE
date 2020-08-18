@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./public/styles/normalize.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=VT323&display=swap">
+  <link rel="stylesheet" href="./public/styles/style.css">
+  <script src="./public/scripts/script.js"></script>
+
+  <title>Pixels Art</title>
+</head>
+<body>
+  <header class="main-header">
+    <div>
+      <div class="logo"></div>
+      <h1>Pixels Art</h1>
+    </div>
+  </header>
+
+  <div class="content-container">
+    <main>
+      <article>
+        <h2 id="title">Color palette</h2>
+
+        <div id="color-palette" class="color-palette">
+        </div>
+
+        <div class="buttons-container">
+          <div class="buttons-left">
+            <div class="input-container">
+              <div>
+                Rows
+                <input id="board-size" type="number" value="5" min="5" max="50">
+              </div>
+              <div>
+                Columns
+                <input type="number" min="5" max="50" disabled>
+            </div>
+            <span class="settings-button">Advanced Settings</span>
+            
+            </div>
+
+            <div class="advanced-settings">
+              <div>
+                Pixel size
+                <input type="number" value="40" disabled>
+              </div>
+              <div>
+                <label for="pixel-size-checkbox">Enable column</label>
+                <input id="pixel-size-checkbox" type="checkbox" disabled>
+              </div>
+            </div>
+            <div class="buttons-wrapper">
+              <button class="generate-board" id="generate-board">Resize</button>
+              <button class="clear-board" id="clear-board">Clear</button>
+            </div>
+          </div>
+
+        </div>
+
+        <div id="pixel-board" class="pixel-board">
+
+        </div>
+
+      </article>
+    </main>
+  </div>
+  <!-- ! -->
+  <!-- <footer>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci eos ad incidunt quia! Soluta maxime quos architecto numquam reiciendis adipisci.
+  </footer> -->
+</body>
+</html>

@@ -1,0 +1,66 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.d-flex {
+  display: flex;
+}
+
+/* .header-content-container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 60%;
+} */
+
+.top-bar {
+  align-items: center;
+  background-color: rgb(66, 103, 178);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.facebook-login {
+  display: flex;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-control {
+  align-self: flex-end;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+}
+
+.left-content {
+  width: 800px;
+}
+
+.right-content {
+  width: 300px;
+}
+
+.right-content form .fullname-container {
+  display: flex;
+}
+
+.label-birthdate , .label-gender {
+  display: block;
+}
+
+.invalid-warning {
+  color: rgb(253, 6, 6);
+  font-weight: 700;
+}
