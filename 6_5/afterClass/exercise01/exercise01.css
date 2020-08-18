@@ -1,0 +1,49 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 1.125rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+figure {
+  margin: 1em 0;
+}
+
+.figure-container figure {
+  text-align: center;
+}
+
+@media screen and (min-width: 800px) {
+  .figure-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5em;
+  }
+
+  body {
+    font-size: 1.25rem;
+    background-color: honeydew;
+  }
+
+}
+
+@media screen and (min-width: 1300px) {
+  body {
+    background-color: lemonchiffon;
+    max-width: 80%;
+    margin: auto;
+  }
+}
