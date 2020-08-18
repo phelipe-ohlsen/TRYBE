@@ -6,7 +6,7 @@
 
 ### :book: Exercises:
   * Module 3
-    - [x] All tasks completed
+    - [x] [All tasks completed](https://github.com/phelipe-ohlsen/TRYBE/tree/master/exercises/3_X "Module 3 folder")
 
   * Module 4
     - [x] [4_1: JavaScript - First steps](https://github.com/phelipe-ohlsen/TRYBE/tree/master/exercises/4_1 "Go to 4_1 folder")
@@ -39,18 +39,14 @@
  ### :wrench: Projects:
   * Front-end module:
   
-    - [x] Lessons Learned - Module 3
-    - [x] Playground Functions - Module 4
-    - [x] Meme Generator - Module 5
-    - [x] Pixels Art - Module 5
-    - [x] Todo list - Module 5
-    - [x] Facebook Sign up - Module 6
-    - [x] Unit tests - Module 7
-    - [ ] Zoo functions - Module 8 
+    - [x] [Lessons Learned - Module 3](https://github.com/phelipe-ohlsen/TRYBE/tree/master/projects/sd-06-project-lessons-learned "Lessons Learned folder")
+    - [x] [Playground Functions - Module 4](https://github.com/phelipe-ohlsen/TRYBE/tree/master/projects/sd-06-project-playground-functions "Playground Functions folder")
+    - [x] [Meme Generator - Module 5](https://github.com/phelipe-ohlsen/TRYBE/tree/master/projects/sd-06-project-meme-generator "Meme Generator folder")
+    - [x] [Pixels Art - Module 5](https://github.com/phelipe-ohlsen/TRYBE/tree/master/projects/sd-06-project-pixels-art "Pixels Art folder")
+    - [x] [Todo list - Module 5](https://github.com/phelipe-ohlsen/TRYBE/tree/master/projects/sd-06-project-todo-list "To-do List folder")
+    - [x] [Fakebook Sign up - Module 6](https://github.com/phelipe-ohlsen/TRYBE/tree/master/projects/sd-06-project-facebook-signup "Fakebook Sign-up folder")
+    - [x] [Unit tests - Module 7](https://github.com/phelipe-ohlsen/TRYBE/tree/master/projects/sd-06-project-js-unit-tests "Unit tests folder")
+    - [ ] Zoo functions - Module 8
     
 ----
 
-- [x] [6_2: JavaScript libraries and CSS Frameworks](https://github.com/phelipe-ohlsen/TRYBE/tree/master/exercises/6_2 "Go to 6_2 folder")
-- [x] [6_3: CSS Flexbox](https://github.com/phelipe-ohlsen/TRYBE/tree/master/exercises/6_3 "Go to 6_3 folder")
-- [x] [6_5: CSS Responsive - Mobile first](https://github.com/phelipe-ohlsen/TRYBE/tree/master/exercises/6_5 "Go to 6_5 folder")
-- [x] [5_4: JavaScript - Web Storage](https://github.com/phelipe-ohlsen/TRYBE/tree/master/exercises/5_4 "Go to 5_4 folder")
