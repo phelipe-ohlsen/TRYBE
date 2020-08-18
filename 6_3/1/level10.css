@@ -1,0 +1,9 @@
+/* https://flexboxfroggy.com/ */
+/*! Level 10 */
+
+/* TODO: Help the frogs get to their own lilypads. Although they seem close, it will take both flex-direction and justify-content to get them there. */
+
+#pond {
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}

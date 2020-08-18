@@ -1,0 +1,19 @@
+/* http://www.flexboxdefense.com/ */
+/*! Wave 10  */
+
+/* TODO: Move your towers into position by combining the container property justify-content with the item property order. */
+
+.tower-group-1 {
+  display: flex;
+  justify-content: space-between;
+}
+.tower-1-2 {
+  order: 3;
+}
+.tower-group-2 {
+  display: flex;
+  justify-content: space-around;
+}
+.tower-2-2 {
+  order: -1;
+}

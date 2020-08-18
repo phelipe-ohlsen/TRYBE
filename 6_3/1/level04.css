@@ -1,0 +1,9 @@
+/* https://flexboxfroggy.com/ */
+/*! Level 04 */
+
+/* TODO: Now the lilypads on the edges have drifted to the shore, increasing the space between them. */
+
+#pond {
+  display: flex;
+  justify-content: space-between;
+}

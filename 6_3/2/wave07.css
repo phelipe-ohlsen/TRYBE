@@ -1,0 +1,13 @@
+/* http://www.flexboxdefense.com/ */
+/*! Wave 07  */
+
+/* TODO: Use flex-direction to move your towers into position. */
+
+.tower-group-1 {
+  display: flex;
+  flex-direction: column;
+}
+.tower-group-2 {
+  display: flex;
+  flex-direction: column;
+}
