@@ -1,6 +1,6 @@
 # TRYBE's vault
 
-### Repository for exercises and projects from Trybe's course.
+### Repository for exercises and projects from [Trybe's](https://www.betrybe.com/ "Trybe home page") course.
 
 ----
 
