@@ -34,7 +34,7 @@
     - [x] [8_1: JavaScript ES6 - Higher Order Functions -forEach, find, some, every, sort](https://github.com/phelipe-ohlsen/TRYBE/tree/master/exercises/8_1 "Go to 8_1 folder")
     - [X] [8_2: JavaScript ES6 - Higher Order Functions -map and filter](https://github.com/phelipe-ohlsen/TRYBE/tree/master/exercises/8_2 "Go to 8_2 folder")
     - [X] [8_3: JavaScript ES6 - Higher Order Functions -reduce](https://github.com/phelipe-ohlsen/TRYBE/tree/master/exercises/8_3 "Go to 8_3 folder")
-    - [ ] 8_4: JavaScript ES6 - Higher Order Functions -spread operator, rest parameter, destructuring...
+    - [X] [8_4: JavaScript ES6 - Higher Order Functions -spread operator, rest parameter, destructuring...](https://github.com/phelipe-ohlsen/TRYBE/tree/master/exercises/8_4 "Go to 8_4 folder")
  ----
  ### :wrench: Projects:
   * __Front-end module:__
