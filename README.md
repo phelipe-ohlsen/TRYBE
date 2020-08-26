@@ -52,6 +52,7 @@
     - [x] [Fakebook Sign up - Module 6](https://github.com/phelipe-ohlsen/TRYBE/tree/master/projects/sd-06-project-facebook-signup "Fakebook Sign-up folder")
     - [x] [Unit tests - Module 7](https://github.com/phelipe-ohlsen/TRYBE/tree/master/projects/sd-06-project-js-unit-tests "Unit tests folder")
     - [x] [Zoo functions - Module 8](https://github.com/phelipe-ohlsen/TRYBE/tree/master/projects/sd-06-project-zoo-functions "Zoo functions folder")
+    - [ ] Shopping Cart - Module 9
     
 ----
 
