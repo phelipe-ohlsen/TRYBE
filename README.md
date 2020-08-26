@@ -35,6 +35,11 @@
     - [X] [8_2: JavaScript ES6 - Higher Order Functions -map and filter](https://github.com/phelipe-ohlsen/TRYBE/tree/master/exercises/8_2 "Go to 8_2 folder")
     - [X] [8_3: JavaScript ES6 - Higher Order Functions -reduce](https://github.com/phelipe-ohlsen/TRYBE/tree/master/exercises/8_3 "Go to 8_3 folder")
     - [X] [8_4: JavaScript ES6 - Higher Order Functions -spread operator, rest parameter, destructuring...](https://github.com/phelipe-ohlsen/TRYBE/tree/master/exercises/8_4 "Go to 8_4 folder")
+
+* __Module 9__
+    - [x] [9_1: Asynchronous JavaScript and Callbacks](https://github.com/phelipe-ohlsen/TRYBE/tree/master/exercises/9_1 "Go to 9_1 folder")
+    - [ ] 9_2: JavaScript Promises
+
  ----
  ### :wrench: Projects:
   * __Front-end module:__
