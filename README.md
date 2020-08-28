@@ -38,7 +38,7 @@
 
 * __Module 9__
     - [x] [9_1: Asynchronous JavaScript and Callbacks](https://github.com/phelipe-ohlsen/TRYBE/tree/master/exercises/9_1 "Go to 9_1 folder")
-    - [ ] 9_2: JavaScript Promises
+    - [x] [9_2: JavaScript Promises](https://github.com/phelipe-ohlsen/TRYBE/tree/master/exercises/9_2 "Go to 9_2 folder")
 
  ----
  ### :wrench: Projects:
