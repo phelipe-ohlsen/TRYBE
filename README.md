@@ -8,6 +8,9 @@
   * __Module 1__
     - [x] [Introduction to Unix & Bash](https://github.com/phelipe-ohlsen/TRYBE/tree/master/exercises/1_X "Module 1 folder")
 
+  * __Module 2__
+    - [x] [Introduction to Git & GitHub]
+
   * __Module 3__
     - [x] [Introduction to HTML & CSS](https://github.com/phelipe-ohlsen/TRYBE/tree/master/exercises/3_X "Module 3 folder")
 
