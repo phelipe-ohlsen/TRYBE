@@ -5,8 +5,11 @@
 ----
 
 ### :book: Exercises:
+  * __Module 1__
+  - [x] [Introduction to Unix & Bash](https://github.com/phelipe-ohlsen/TRYBE/tree/master/exercises/1_X "Module 1 folder")
+
   * __Module 3__
-    - [x] [All tasks completed](https://github.com/phelipe-ohlsen/TRYBE/tree/master/exercises/3_X "Module 3 folder")
+    - [x] [Introduction to HTML & CSS](https://github.com/phelipe-ohlsen/TRYBE/tree/master/exercises/3_X "Module 3 folder")
 
   * __Module 4__
     - [x] [4_1: JavaScript - First steps](https://github.com/phelipe-ohlsen/TRYBE/tree/master/exercises/4_1 "Go to 4_1 folder")

@@ -1,0 +1,11 @@
+function simpleArraySum(ar) {
+  let sum = 0
+
+   for (const number of ar) {
+    sum += number
+   }
+
+   return console.log(sum)
+}
+
+simpleArraySum([1, 2, 3, 4, 10, 11])
