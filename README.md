@@ -49,7 +49,7 @@
 * __Module 9__
     - [x] [10_1: Jest - First steps](https://github.com/phelipe-ohlsen/TRYBE/tree/master/exercises/10_1 "Go to 10_1 folder")
     - [ ] 10_2: Jest - Asynchronous tests
-    - [ ] 10_3: Jest - Simulating Behaviors
+    - [X] [10_3: Jest - Simulating Behaviors](https://github.com/phelipe-ohlsen/TRYBE/tree/master/exercises/10_3 "Go to 10_3 folder")
 
  ----
  ### :wrench: Projects:
@@ -64,7 +64,7 @@
     - [x] [Unit tests - Module 7](https://github.com/phelipe-ohlsen/TRYBE/tree/master/projects/sd-06-project-js-unit-tests "Unit tests folder")
     - [x] [Zoo functions - Module 8](https://github.com/phelipe-ohlsen/TRYBE/tree/master/projects/sd-06-project-zoo-functions "Zoo functions folder")
     - [X] [Shopping Cart - Module 9 [CSS not completed]](https://github.com/phelipe-ohlsen/TRYBE/tree/master/projects/sd-06-project-shopping-cart "Shopping Cart folder")
-    - [ ] Asynchronous Jest and Mocking - Module 10
+    - [X] [Asynchronous Jest and Mocking - Module 10](https://github.com/phelipe-ohlsen/TRYBE/tree/master/projects/sd-06-project-jest "Project Jest folder")
     
 ----
 
