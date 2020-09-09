@@ -7,11 +7,9 @@ async function fetchDog() {
     const result = await response.json();
     console.log(result);
   } catch(err) {
-    throw new Error(err)
+    throw new Error('[API] Request failed.')
   }
 }
-
-// fetchDog();
 
 describe('Dog API request', () => {
   const expected = {
@@ -26,23 +24,30 @@ describe('Dog API request', () => {
   });
   
   it('Request succeeded', () => {
-    fetchDog.mockResolvedValue('request succeeded');
-
-    fetchDog();
-    expect(fetchDog).toHaveBeenCalled();
-    expect(fetchDog).toHaveBeenCalledTimes(1);
-    expect(fetchDog()).resolves.toBe('request succeeded');
-    expect(fetchDog).toHaveBeenCalledTimes(2);
+    fetchDog.mockResolvedValue(expected);
+    try {
+      fetchDog();
+      expect(fetchDog).toHaveBeenCalled();
+      expect(fetchDog).toHaveBeenCalledTimes(1);
+      expect(fetchDog()).resolves.toBe(expected);
+      expect(fetchDog).toHaveBeenCalledTimes(2);
+ 
+    } catch(err) {
+      console.log(err);
+    }
   });
 
   it('Request failed', () => {
-    fetchDog.mockRejectedValue('request failed')
-
-    fetchDog();
-    expect(fetchDog).toHaveBeenCalled();
-    expect(fetchDog).toHaveBeenCalledTimes(1);
-    expect(fetchDog()).rejects.toBe('request failed');
-    expect(fetchDog).toHaveBeenCalledTimes(2);
+    fetchDog.mockRejectedValue(new Error('request failed'));
+    try {
+      fetchDog();
+      expect(fetchDog).toHaveBeenCalled();
+      expect(fetchDog).toHaveBeenCalledTimes(1);
+      expect(fetchDog()).rejects.toThrowError('request failed');
+      expect(fetchDog).toHaveBeenCalledTimes(2);
+      
+    } catch(err) {
+      console.log(err);
+    }
   });
-
 });
