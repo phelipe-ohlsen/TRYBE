@@ -52,7 +52,7 @@
     - [X] [10_3: Jest - Simulating Behaviors](https://github.com/phelipe-ohlsen/TRYBE/tree/master/exercises/10_3 "Go to 10_3 folder")
 
 * __Module 11__
-    - [X] [11_1: Introduction to React - "Hello, World!"](https://github.com/phelipe-ohlsen/TRYBE/tree/master/exercises/11_1 "Go to 11_1 folder")
+    - [X] [11_1: Introduction to React - "Hello, World !"](https://github.com/phelipe-ohlsen/TRYBE/tree/master/exercises/11_1 "Go to 11_1 folder")
     - [ ] 11_2: Introduction to React - Components
 
  ----
@@ -69,7 +69,7 @@
     - [x] [Zoo functions - Module 8](https://github.com/phelipe-ohlsen/TRYBE/tree/master/projects/sd-06-project-zoo-functions "Zoo functions folder")
     - [X] [Shopping Cart - Module 9 [CSS not completed]](https://github.com/phelipe-ohlsen/TRYBE/tree/master/projects/sd-06-project-shopping-cart "Shopping Cart folder")
     - [X] [Asynchronous Jest and Mocking - Module 10](https://github.com/phelipe-ohlsen/TRYBE/tree/master/projects/sd-06-project-jest "Project Jest folder")
-    - [ ] [Movie Cards Library - Module 11](https://github.com/phelipe-ohlsen/TRYBE/tree/master/projects/sd-06-project-jest "Project Jest folder")
+    - [ ] Movie Cards Library - Module 11
     
 ----
 
