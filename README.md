@@ -53,7 +53,7 @@
 
 * __Module 11__
     - [X] [11_1: Introduction to React - "Hello, World !"](https://github.com/phelipe-ohlsen/TRYBE/tree/master/exercises/11_1 "Go to 11_1 folder")
-    - [ ] 11_2: Introduction to React - Components
+    - [X] [11_2: Introduction to React - Components](https://github.com/phelipe-ohlsen/TRYBE/tree/master/exercises/11_2 "Go to 11_2 folder")
 
  ----
  ### :books: Projects:
