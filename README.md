@@ -55,6 +55,10 @@
     - [X] [11_1: Introduction to React - "Hello, World !"](https://github.com/phelipe-ohlsen/TRYBE/tree/master/exercises/11_1 "Go to 11_1 folder")
     - [X] [11_2: Introduction to React - Components](https://github.com/phelipe-ohlsen/TRYBE/tree/master/exercises/11_2 "Go to 11_2 folder")
 
+* __Module 12__
+    - [X] [12_1: React Components: states and events"](https://github.com/phelipe-ohlsen/TRYBE/tree/master/exercises/12_1 "Go to 12_1 folder")
+    - [X] 12_2: React - Forms
+
  ----
  ### :books: Projects:
   * __Front-end module:__
@@ -70,6 +74,7 @@
     - [X] [Shopping Cart - Module 9 [CSS not completed]](https://github.com/phelipe-ohlsen/TRYBE/tree/master/projects/sd-06-project-shopping-cart "Shopping Cart folder")
     - [X] [Asynchronous Jest and Mocking - Module 10](https://github.com/phelipe-ohlsen/TRYBE/tree/master/projects/sd-06-project-jest "Project Jest folder")
     - [ ] Movie Cards Library - Module 11
+    - [ ] Movie Cards Library Stateful - Module 12
     
 ----
 
