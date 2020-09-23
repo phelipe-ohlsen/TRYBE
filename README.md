@@ -57,7 +57,11 @@
 
 * __Module 12__
     - [X] [12_1: React Components: states and events"](https://github.com/phelipe-ohlsen/TRYBE/tree/master/exercises/12_1 "Go to 12_1 folder")
-    - [X] 12_2: React - Forms
+    - [X] [12_2: React - Forms](https://github.com/phelipe-ohlsen/TRYBE/tree/master/exercises/12_2 "Go to 12_2 folder")
+
+* __Module 13__
+    - [ ] [13_1: React Components: Lifecycle"](https://github.com/phelipe-ohlsen/TRYBE/tree/master/exercises/13_1 "Go to 13_1 folder")
+    - [X] [13_2: React Router](https://github.com/phelipe-ohlsen/TRYBE/tree/master/exercises/13_2 "Go to 13_2 folder")
 
  ----
  ### :books: Projects:
