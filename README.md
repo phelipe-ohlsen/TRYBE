@@ -48,7 +48,7 @@
 
 * __Module 10__
     - [x] [10_1: Jest - First steps](https://github.com/phelipe-ohlsen/TRYBE/tree/master/exercises/10_1 "Go to 10_1 folder")
-    - [ ] 10_2: Jest - Asynchronous tests
+    - [ ] [10_2: Jest - Asynchronous tests](https://github.com/phelipe-ohlsen/TRYBE/tree/master/exercises/10_2 "Go to 10_2 folder")
     - [X] [10_3: Jest - Simulating Behaviors](https://github.com/phelipe-ohlsen/TRYBE/tree/master/exercises/10_3 "Go to 10_3 folder")
 
 * __Module 11__
@@ -60,8 +60,15 @@
     - [X] [12_2: React - Forms](https://github.com/phelipe-ohlsen/TRYBE/tree/master/exercises/12_2 "Go to 12_2 folder")
 
 * __Module 13__
-    - [ ] [13_1: React Components: Lifecycle"](https://github.com/phelipe-ohlsen/TRYBE/tree/master/exercises/13_1 "Go to 13_1 folder")
+    - [ ] [13_1: React Components: Lifecycle](https://github.com/phelipe-ohlsen/TRYBE/tree/master/exercises/13_1 "Go to 13_1 folder")
     - [X] [13_2: React Router](https://github.com/phelipe-ohlsen/TRYBE/tree/master/exercises/13_2 "Go to 13_2 folder")
+
+* __Module 14__
+    - [X] 14_1: Agile Methodology
+
+* __Module 15__
+    - [X] [15_1: Test automation: React Testing Library - first steps](https://github.com/phelipe-ohlsen/TRYBE/tree/master/exercises/15_1 "Go to 15_1 folder")
+    - [ ] [15_2: Test automation: React Testing Library - Mocks and Inputs](https://github.com/phelipe-ohlsen/TRYBE/tree/master/exercises/15_2 "Go to 15_2 folder")
 
  ----
  ### :books: Projects:
@@ -79,6 +86,8 @@
     - [X] [Asynchronous Jest and Mocking - Module 10](https://github.com/phelipe-ohlsen/TRYBE/tree/master/projects/sd-06-project-jest "Project Jest folder")
     - [ ] Movie Cards Library - Module 11
     - [ ] Movie Cards Library Stateful - Module 12
+    - [ ] Movie Cards Library CRUD - Module 13
+    - [ ] FrontEnd Online Store - Module 14
     
 ----
 
